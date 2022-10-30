@@ -1,0 +1,6 @@
+button{
+    cursor:pointer;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
