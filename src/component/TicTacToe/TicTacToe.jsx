@@ -80,7 +80,7 @@ setGameStatus(true)
         <div>Player A: O</div>
         <div>Player B: X</div>
       </div>
-      {<h2>Turn: Player {totalTurn % 2 ? "B" : "A"}</h2>}
+      {!gameStatus&&<h2>Turn: Player {totalTurn % 2 ? "B" : "A"}</h2>}
       <div >
         <table className={styles.board}>
           {board?.map((row, i) => <tbody key={i}><tr>
